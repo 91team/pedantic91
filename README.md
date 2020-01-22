@@ -1,14 +1,19 @@
 # pedantic91
 
-A new Flutter package project.
+Попытка разработать собственный набор правил анализатора для унифицирования всех проектов. Реализация взята у гуглового пакета `pedantic`, так что если там будут breaking changes, то их также следует перенести сюда.
 
-## Getting Started
+## Использование
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Для использования правил добавьте dev зависимость в `pubspec.yaml`:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dev_dependencies:
+  pedantic91:
+    git: git@github.com:ninenone/pedantic91.git
+```
+
+затем нужно включить его в ваш `analysis_options.yaml`.
+
+```yaml
+include: package:pedantic91/analysis_options.yaml
+```
