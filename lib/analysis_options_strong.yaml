@@ -2,8 +2,8 @@ include: rules.yaml
 
 analyzer:
   strong-mode:
-    implicit-casts: true
-    implicit-dynamic: true
+    implicit-casts: false
+    implicit-dynamic: false
   errors:
     missing_required_param: error
     missing_return: error
