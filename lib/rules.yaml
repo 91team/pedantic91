@@ -57,11 +57,11 @@ linter:
     - curly_braces_in_flow_control_structures
     # - diagnostic_describe_all_properties
     - directives_ordering
-    - do_not_use_environment
+    # - do_not_use_environment ENABLE
     - empty_catches
     - empty_constructor_bodies
     - empty_statements
-    - exhaustive_cases
+    # - exhaustive_cases  ENABLE
     - file_names # not yet tested
     # - flutter_style_todos
     - hash_and_equals
@@ -132,7 +132,7 @@ linter:
     # - provide_deprecation_message
     # - public_member_api_docs
     - recursive_getters
-    - sized_box_for_whitespace
+    # - sized_box_for_whitespace ENABLE
     - slash_for_doc_comments
     - sort_child_properties_last
     - sort_constructors_first
@@ -164,7 +164,7 @@ linter:
     # - unsafe_html
     - use_full_hex_values_for_flutter_colors
     - use_function_type_syntax_for_parameters
-    - use_is_even_rather_than_modulo
+    # - use_is_even_rather_than_modulo ENABLE
     - use_key_in_widget_constructors # not yet tested
     # - use_late_for_private_fields_and_variables
     # - use_raw_strings
