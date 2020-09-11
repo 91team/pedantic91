@@ -5,10 +5,20 @@ analyzer:
     implicit-casts: false
     implicit-dynamic: false
   errors:
+    todo: info
+    directives_ordering: info
+
+    cancel_subscriptions: warning
+    close_sinks: warning
+    empty_catches: warning
+    avoid_slow_async_io: warning
+
     missing_required_param: error
     missing_return: error
-    todo: info
-    sdk_version_async_exported_from_core: ignore
+    always_require_non_null_named_parameters: error
   language:
     strict-inference: true
     strict-raw-types: true
+  exclude:
+    - 'build/**'
+    - 'lib/**/*.g.dart'
