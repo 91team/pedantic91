@@ -1,6 +1,6 @@
 name: pedantic91
 description: The Dart analyzer settings and best practices used internally at 91.
-version: 0.1.6
+version: 0.1.7
 
 environment:
-  sdk: '>=2.7.2 <3.0.0'
+  sdk: '>=2.9.2 <3.0.0'
