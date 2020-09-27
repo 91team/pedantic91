@@ -5,17 +5,32 @@ analyzer:
     implicit-casts: true
     implicit-dynamic: true
   errors:
+    # Info
     todo: info
     directives_ordering: info
 
+    # Warning
     cancel_subscriptions: warning
     close_sinks: warning
     empty_catches: warning
-    avoid_slow_async_io: warning
+    non_constant_identifier_names: warning
+    prefer_collection_literals: warning
+    prefer_contains: warning
+    prefer_const_constructors: warning
+    prefer_const_constructors_in_immutables: warning
+    prefer_const_declarations: warning
+    prefer_const_literals_to_create_immutables: warning
+    prefer_final_locals: warning
 
+    # Error
     missing_required_param: error
     missing_return: error
+    avoid_slow_async_io: error
     always_require_non_null_named_parameters: error
+    always_declare_return_types: error
+    avoid_void_async: error
+    await_only_futures: error
+    only_throw_errors: error
   language:
     strict-inference: true
     strict-raw-types: true
