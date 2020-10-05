@@ -31,6 +31,7 @@ analyzer:
     avoid_void_async: error
     await_only_futures: error
     only_throw_errors: error
+    must_call_super: error
   language:
     strict-inference: true
     strict-raw-types: true
