@@ -38,3 +38,5 @@ analyzer:
   exclude:
     - 'build/**'
     - 'lib/**/*.g.dart'
+    - 'lib/**/di.config.dart'
+    - 'lib/**/*.gr.dart'
