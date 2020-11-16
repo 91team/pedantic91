@@ -40,3 +40,4 @@ analyzer:
     - 'lib/**/*.g.dart'
     - 'lib/**/di.config.dart'
     - 'lib/**/*.gr.dart'
+    - 'lib/**/*.freezed.dart'
