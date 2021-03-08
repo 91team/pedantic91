@@ -2,12 +2,12 @@
 
 ## Использование
 
-- Добавить dev dependency в `pubspec.yaml`:
+- Добавить зависимость в `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
   pedantic91:
-    git: git@github.com:ninenone/pedantic91.git
+    git: git@github.com:91team/pedantic91.git
 ```
 
 - Включить в `analysis_options.yaml`.

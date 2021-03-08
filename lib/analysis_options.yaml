@@ -2,8 +2,8 @@ include: rules.yaml
 
 analyzer:
   strong-mode:
-    implicit-casts: true
-    implicit-dynamic: true
+    implicit-casts: false
+    implicit-dynamic: false
   errors:
     # Info
     todo: info
@@ -32,13 +32,10 @@ analyzer:
     await_only_futures: error
     only_throw_errors: error
     must_call_super: error
-  language:
-    strict-inference: true
-    strict-raw-types: true
   exclude:
-    - 'build/**'
-    - 'lib/**/*.g.dart'
-    - 'lib/**/di.config.dart'
-    - 'lib/**/*.gr.dart'
-    - 'lib/**/*.freezed.dart'
-    - 'lib/**/*.graphql.dart'
+    - "build/**"
+    - "lib/**/*.g.dart"
+    - "lib/**/di.config.dart"
+    - "lib/**/*.gr.dart"
+    - "lib/**/*.freezed.dart"
+    - "lib/**/*.graphql.dart"
