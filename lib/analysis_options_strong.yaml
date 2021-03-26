@@ -2,8 +2,8 @@ include: rules.yaml
 
 analyzer:
   strong-mode:
-    implicit-casts: true
-    implicit-dynamic: true
+    implicit-casts: false
+    implicit-dynamic: false
   errors:
     # Info
     todo: info
