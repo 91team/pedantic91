@@ -39,3 +39,4 @@ analyzer:
     - "lib/**/*.gr.dart"
     - "lib/**/*.freezed.dart"
     - "lib/**/*.graphql.dart"
+    - "lib/**/*.mock.dart"
